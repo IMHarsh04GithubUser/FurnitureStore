@@ -1,0 +1,15 @@
+
+
+li:hover{
+    color: red;
+    cursor: pointer;
+    border-bottom: solid 2px; 
+    transition: border-bottom 0.3s ease-in-out;
+    transform: translateX(6px);
+    
+}
+
+div > nav > div:nth-child(3) > div:hover{
+    color: red;
+    cursor: pointer;
+}
