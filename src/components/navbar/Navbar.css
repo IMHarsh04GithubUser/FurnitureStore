@@ -13,3 +13,23 @@ div > nav > div:nth-child(3) > div:hover{
     color: red;
     cursor: pointer;
 }
+
+.nav-content-responsive{
+    animation-name: openbox;
+    animation-duration: 0.4s;
+    animation-direction: alternate-reverse;
+    transition: transform 0.4s ease-in-out;
+    height: 658px;
+}
+
+@keyframes openbox{
+    0%{
+        display:none;
+        transform: translateX(0px);
+    }
+    100%{
+        
+        transform: translateX(100px);
+    }
+    
+}
