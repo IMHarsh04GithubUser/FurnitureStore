@@ -1,6 +1,6 @@
 
 
-li:hover{
+.li-nav:hover{
     color: red;
     cursor: pointer;
     border-bottom: solid 2px; 
@@ -30,6 +30,7 @@ div > nav > div:nth-child(3) > div:hover{
     100%{
         
         transform: translateX(100px);
+        
     }
     
 }
